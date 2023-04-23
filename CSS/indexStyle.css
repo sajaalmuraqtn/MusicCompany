@@ -575,7 +575,9 @@ transition-duration: 1s;
       margin-top: 10px;
       font-size: 56px;
   }
-
+  .header-content .loader {
+    margin-left: 170px;
+  }
   /* review section */
   .review{
     height: 1100px;
@@ -763,7 +765,10 @@ padding-bottom: 230px;
       margin-top: 10px;
       font-size: 86px;
   }
-
+  
+  .header-content .loader {
+    margin-left: 370px;
+  }
 
 
    /* review section */
