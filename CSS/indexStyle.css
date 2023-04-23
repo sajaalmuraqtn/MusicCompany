@@ -54,15 +54,18 @@ ul{
 }
 
 .navbar{
-    width: 80%;
-    padding: 40px;
+    width: 100%;
+    padding: 20px;
     text-align: center;
     position: fixed;
+    height: 1%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    transition: 1s;
 }
 .links{
  float: right;
  margin-top: 10px;
- margin-right: -200px;
 
 }
 .links li{
@@ -96,7 +99,6 @@ ul{
 .header-content .container{
   width: 40%;
   margin-top: 15%;
-
 }
 .header-content p{
     margin-top: 20px;
@@ -127,7 +129,42 @@ ul{
   background-color: none;
   border-radius:  2px;
   height: 10px;
-  wi
+  
+}
+.loader {
+  margin-left: 270px;
+  margin-top: 40px;
+  display: block;
+  width: 38px;
+  height: 78px;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  position: relative;
+  border-radius: 50% 50% 50% 50% / 25% 25% 25% 25%;
+}
+
+.loader::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50% , 50%);
+  width: 10px;
+  height: 10px;
+  background: #FFF;
+  border-radius: 50%;
+  animation: fadeDown 1s ease-out infinite;
+}
+
+@keyframes fadeDown {
+  0% {
+    top: 0%;
+    opacity: 1;
+  }
+  100% {
+    top: 60%;
+    opacity: 0;
+  }
 }
 
 
