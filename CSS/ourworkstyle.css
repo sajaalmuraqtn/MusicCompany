@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow: auto;
+}
 .clr{
     clear:both;
     height: 20px;
@@ -28,16 +31,49 @@ ul{
 }
 /* header */
 .header{
-    height: 60vh;
+    height: 80vh;
+    background-image: url(../image/ourwork/ourworkbg.jpg);
 }
-.header-content h1 a{
+.header-content p a{
     background: none;
-    color: white;
     transition: 0.1ms;
+    color: rgb(181, 186, 191);
+    font-weight: 200;
    }
-.header-content h1 a:hover{
+.header-content p a:hover{
  color:#ce5c9f;
  background: none;
+
 }
 
 /* header */
+
+/* album */
+.album{
+    height: 70%;
+    padding-top: 50px;
+}
+.album .container{
+  justify-content: center;
+}
+.album div{
+    width: 50%;
+    height: 80%;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    margin-left: 30px;
+}
+.album .Powerful {
+    background-image: url(../image/ourwork/first.jpeg);
+    margin-left: 700px;
+}
+.album .Unique{
+background-image: url(../image/ourwork/second.jpeg);
+}
+.album .New{
+background-image: url(../image/ourwork/third.jpeg);
+}
+/* album */

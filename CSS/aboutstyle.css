@@ -28,16 +28,63 @@ ul{
 }
 /* header */
 .header{
-    height: 60vh;
+    height: 70vh;
+    background-image: url(../image/aboutimage/aboutbg.jpg);
 }
-.header-content h1 a{
+.header-content p a{
     background: none;
-    color: white;
     transition: 0.1ms;
+    color: rgb(181, 186, 191);
+    font-weight: 200;
    }
-.header-content h1 a:hover{
+.header-content p a:hover{
  color:#ce5c9f;
  background: none;
+
 }
 
 /* header */
+
+/* ourstory */
+.ourstory{
+    height: 100vh;
+}
+.ourstory .container{
+    height: 100vh;
+}
+.ourstory .desc,.img{
+    height: 100%;
+}
+.ourstory .img{
+    padding-left: 120px;
+}
+.ourstory .desc{
+    padding-right: 30px;
+}
+
+.ourstory p{
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 27.9px;
+    width: 120%;
+}
+.ourstory li{
+    width: 150%;
+    margin-left: -25px;
+}
+
+.ourstory li i{
+margin-right: 10px ;
+}
+
+/* ourstory */
+  
+/* Features*/
+.Features{
+    background-color: #f8f8f8    ;
+}
+.Features i{
+   font-size:xx-large;
+}
+
+/* Features*/

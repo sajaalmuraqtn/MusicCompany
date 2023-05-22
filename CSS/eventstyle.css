@@ -28,16 +28,110 @@ ul{
 }
 /* header */
 .header{
-    height: 60vh;
+    height: 70vh;
+    background-image: url(../image/eventimage/eventbg.jpg);
 }
-.header-content h1 a{
+.header-content p a{
     background: none;
-    color: white;
     transition: 0.1ms;
+    color: rgb(181, 186, 191);
+    font-weight: 200;
    }
-.header-content h1 a:hover{
+.header-content p a:hover{
  color:#ce5c9f;
  background: none;
+
 }
 
 /* header */
+
+/* ourstory */
+.ourstory{
+    height: 100vh;
+}
+.ourstory .container{
+    height: 100vh;
+}
+.ourstory .desc,.img{
+    height: 100%;
+}
+.ourstory .img img{
+    height:65%;
+    width:85%;
+
+}
+.ourstory .img{
+    padding-left: 15%;
+    height: 100%;
+
+}
+.ourstory .desc{
+    padding-right: 30px;
+}
+
+.ourstory p{
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 27.9px;
+    width: 120%;
+    color: #686868;
+}
+.ourstory li{
+    width: 150%;
+    margin-left: -25px;
+    color: #686868;
+
+}
+
+.ourstory li i{
+margin-right: 10px ;
+}
+
+.SanFrancisco{
+    background-color: #f8f8f8;
+}
+.SanFrancisco .desc{
+    padding-left: 5%;
+    height: 100%;
+
+}
+.SanFrancisco .img{
+    padding-left: 15%;
+}
+
+/* ourstory */
+
+/* book */
+.book {
+    height: 80vh;
+    background: linear-gradient(-32deg, rgb(153, 110, 193), rgb(243, 72, 90));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.book .container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+}
+.book a{
+    border-radius: 10px;
+    color: black;
+    background-color: #ffff;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans',arial;
+    font-weight:550;
+    padding: 15px 28px;
+    transition: 1s;
+}
+.book a:hover{
+    color:#ffff ;
+    background-color: #151515 ;
+}
+
+/* book */
