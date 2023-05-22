@@ -5,163 +5,235 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engage Music</title>
-    <link rel="stylesheet" href="./CSS/indexStyle.css">
     <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./CSS/indexStyle.css">
 
 </head>
 
 <body>
-    <div class="loading"  id="loading" >
+    <div class="loading" id="loading">
         <span class="loaders"></span>
     </div>
+    <!-- header -->
     <header class="header">
         <div class="overlay">
-        <nav class="navbar" id="navbar">
-            <div class="container">
-                <div class="logo">
-                    <img src="./image/music-light Logo.png" alt="logo engange Music">
-                </div>
-                <div class="links">
-                    <ul>
-                        <li><a href="#" class="activ">Home</a></li>
-                        <li><a href="#" class="activ">About</a></li>
-                        <li><a href="#" class="activ">Event</a></li>
-                        <li><a href="#" class="activ">Our Work</a></li>
-                        <li><a href="#" class="activ">Blog</a></li>
-                        <li><a href="#" class="activ">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="clr"></div>
-            </div>
-        </nav>
-        <div class="header-content">
-            <div class="container">
-                <p class="welcome" id="change">Welcome to</p>
-                <h1>Music Company</h1>
-                <p class="paragrapth">We're the biggest, best equipped and most advanced building company in the greater
-                    Las Vegas area.</p>
-                <a href="#" class="learn-btn">LEARN MORE</a>
-                <span class="loader"></span>
- 
-            </div>
-        </div></div>
-    </header>
-    <section class="review">
 
-        <div class="users">
-            <i class="fa-solid fa-users"></i>
-            <h5>Professional Staff</h5>
-            <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo leo.</p>
+            <nav class="navbar navbar-expand-lg pt-3 fixed-top" id="navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./image/music-light Logo.png" width="200" alt="logo engange Music">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link me-1  px-0  mx-3 " aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-1 px-0 mx-3  " href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-capitalize me-1  px-0 mx-3 " href="event.html">Event</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-1 px-0 mx-3 " href="ourwork.html">Our Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-capitalize me-1 px-0 mx-3 ">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-capitalize me-1 px-0 mx-3 ">contact</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            <!-- end nav bar -->
+
+            <div class="header-content">
+
+                <div class="container">
+                    <div class="mb-5" id="change"></div>
+                    <div class="content d-flex align-items-center flex-column" >
+                        <p class="welcome">Welcome to</p>
+                        <h1>Music Company</h1>
+                        <p class="paragrapth">We're the biggest, best equipped and most advanced building company in the
+                            greater
+                            Las Vegas area.</p>
+                        <a href="#" class="learn-btn">LEARN MORE</a>
+                        <span class="loader"></span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="map">
-            <i class="fa-solid fa-map"></i>
-            <h5>Great Locations</h5>
-            <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo leo. </p>
+    </header>
+    <!-- end header -->
+    <!-- review -->
+
+    <section class="review">
+        <div class="row">
+
+            <div class="users col-md-3">
+                <i class="fa-solid fa-users"></i>
+                <h5>Professional Staff</h5>
+                <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo leo.</p>
+            </div>
+            <div class="map col-md-3">
+                <i class="fa-solid fa-map"></i>
+                <h5>Great Locations</h5>
+                <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo leo. </p>
+            </div>
+            <div class="signal col-md-3">
+                <i class="fa fa-signal"></i>
+                <h5>Fast Results</h5>
+                <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo leo.</p>
+            </div>
+            <div class=" thumbs-up col-md-3">
+                <i class="fa-regular fa-thumbs-up"></i>
+                <h5>Satisfied Clients </h5>
+                <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo leo.</p>
+            </div>
         </div>
-        <div class="signal">
-            <i class="fa fa-signal"></i>
-            <h5>Fast Results</h5>
-            <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo leo.</p>
-        </div>
-        <div class=" thumbs-up">
-            <i class="fa-regular fa-thumbs-up"></i>
-            <h5>Satisfied Clients </h5>
-            <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo leo.</p>
-        </div>
+
         <div class="clr"></div>
     </section>
+    <!-- end review -->
+    <!-- ourgoal -->
     <section class="Ourgoals">
         <div class="container">
-            <div class="aboutimg">
-                <div class="whatis">
-                    <h2>What is our goal?</h2>
-                    <p>Aliquam imperdiet egestas nisi ultrices tristique. Maecenas vestibulum rutrum luctus. Quisque at
-                        viverra felis. Aliquam pharetra lacus non sem ullamcorper tempus. Donec quis commodo ligula, eu
-                        aliquet elit.</p>
+            <div class="row">
+
+
+                <div class="aboutimg col-md-6">
+                    <div class="whatis">
+                        <h2>What is our goal?</h2>
+                        <p>Aliquam imperdiet egestas nisi ultrices tristique. Maecenas vestibulum rutrum luctus. Quisque
+                            at
+                            viverra felis. Aliquam pharetra lacus non sem ullamcorper tempus. Donec quis commodo ligula,
+                            eu
+                            aliquet elit.</p>
+                    </div>
+                    <div class="details">
+                        <div class="det">
+                            <h5>Premium Support</h5>
+                            <p>Curabitur in ante odio. Quisque facilisis elementum ipsum id tincidunt. Cras auctor
+                                consectetur pharetra.</p>
+                        </div>
+                        <div class="det">
+                            <h5>Satisfied Clients</h5>
+                            <p>Curabitur in ante odio. Quisque facilisis elementum ipsum id tincidunt. Cras auctor
+                                consectetur pharetra.</p>
+                        </div>
+                        <div class="det">
+                            <h5>Powerful Features</h5>
+                            <p>Curabitur in ante odio. Quisque facilisis elementum ipsum id tincidunt. Cras auctor
+                                consectetur pharetra.</p>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="details">
-                    <div class="det">
-                        <h5>Premium Support</h5>
-                        <p>Curabitur in ante odio. Quisque facilisis elementum ipsum id tincidunt. Cras auctor
-                            consectetur pharetra.</p>
+                <div class="img col-md-6 ">
+                    <img src="http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/04/photo-1496596634762-c92dca7d13a4-800x820.jpg"
+                        class="mb-5" alt="What is our goal img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end ourgoal -->
+    <!-- special-about-us -->
+    <section class="special-about-us">
+        <div class="overlay">
+            <div class="container">
+
+                <div class="special mb-5">
+                    <h3>What's special about us?</h3>
+                    <p>This is a subtitle, feel free to change it!</p>
+                </div>
+                <div class="items row d-flex justify-content-center ">
+                    <div class="item col-md-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-sliders"></i>
+                            <h5>Powerful Options </h5>
+                        </div>
+                        <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.</p>
                     </div>
-                    <div class="det">
-                        <h5>Satisfied Clients</h5>
-                        <p>Curabitur in ante odio. Quisque facilisis elementum ipsum id tincidunt. Cras auctor
-                            consectetur pharetra.</p>
+                    <div class="item col-md-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-display"></i>
+                            <h5>Responsive Design</h5>
+                        </div>
+                        <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.</p>
                     </div>
-                    <div class="det">
-                        <h5>Powerful Features</h5>
-                        <p>Curabitur in ante odio. Quisque facilisis elementum ipsum id tincidunt. Cras auctor
-                            consectetur pharetra.</p>
+                    <div class="item col-md-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-regular fa-heart"></i>
+                            <h5> Satisfied Clients </h5>
+                        </div>
+                        <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.
+                        </p>
+                    </div>
+                    <div class="item col-md-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <h5> Premium Support</h5>
+                        </div>
+                        <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.
+                        </p>
+                    </div>
+                    <div class="item col-md-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h5>Extensive Documentation</h5>
+                        </div>
+                        <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.
+                        </p>
+                    </div>
+                    <div class="item  col-md-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <h5>Free Updates</h5>
+                        </div>
+                        <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.
+                        </p>
                     </div>
                 </div>
 
-            </div>
-            <div class="img">
-                <img src="http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/04/photo-1496596634762-c92dca7d13a4-800x820.jpg"
-                    alt="What is our goal img">
+                <div class="clr"></div>
             </div>
         </div>
     </section>
-    <section class="special-about-us">
-        <div class="overlay">
-        <div class="container">
-            <div class="special">
-                <h3>What's special about us?</h3>
-                <p>This is a subtitle, feel free to change it!</p>
-            </div>
-            <div class="items">
-                <div class="item">
-                    <i class="fa-solid fa-sliders"></i>                    <h5>Powerful Options </h5>
-                    <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.</p>
-                </div>
-                <div class="item">
-                    <i class="fa-solid fa-display"></i>
-                    <h5>Responsive Design</h5>
-                    <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.</p>
-                </div>
-                <div class="item">
-                    <i class="fa-regular fa-heart"></i>
-                    <h5> Satisfied Clients </h5>
-                    <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.</p>
-                </div>
-                <div class="item">
-                    <div>
-                        <i class="fa-solid fa-newspaper"></i>
-                        <h5> Premium Support</h5>
-                    </div>
-                    <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.</p>
-                </div>
-                <div class="item">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <h5>Extensive Documentation</h5>
-                    <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.</p>
-                </div>
-                <div class="item">
-                    <i class="fa-solid fa-paper-plane"></i>
-                    <h5>Free Updates</h5>
-                    <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna, eget commodo.</p>
-                </div>
-            </div>
-            
-        </div>
-        <div class="clr"></div>
-    </div>
-    </section>
+    <!-- end special-about-us -->
+    <!-- Our-Pieces -->
+
     <section class="Our-Pieces">
         <div class="container">
             <div class="our">
                 <h3>Our Pieces</h3>
                 <p>You are going to love those.</p>
             </div>
-            <div class="imgs">
-                <img src="http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/05/music5-600x600.jpeg"
-                    alt="song img">
-                <img src="http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/05/music6-600x600.jpeg"
-                    alt="song img">
-                <img src="http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/04/music3-600x600.jpeg"
-                    alt="song img">
+            <div class="imgs mt-5">
+                <div class="container row d-flex justify-content-center ">
+
+                    <img class=" col-md-4"
+                        src="http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/05/music5-600x600.jpeg"
+                        alt="song img">
+                    <img class=" col-md-4"
+                        src="http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/05/music6-600x600.jpeg"
+                        alt="song img">
+                    <img class=" col-md-4"
+                        src="http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/04/music3-600x600.jpeg"
+                        alt="song img">
+                </div>
 
             </div>
             <div class="button">
@@ -171,28 +243,30 @@
         <div class="clr"></div>
 
     </section>
+    <!-- end Our-Pieces -->
+    <!-- Latest-News -->
     <section class="Latest-News">
 
-        <div class="latest">
+        <div class="latest mb-5 pb-5">
             <h3>Latest News</h3>
-            <p>This is a subtitle, feel free to change it! </p>
+            <p class="mb-5">This is a subtitle, feel free to change it! </p>
         </div>
-        <div class="items">
-            <div class="item">
+        <div class="items row mt-5 pt-5 mb-1  d-flex">
+            <div class="item col-md-4">
                 <h5>Audio Post</h5>
                 <p class="pdate">By Philip on April 22, 2017</p>
                 <p class="prag">Duis autem vel eum iriure dolor in hendrerit in vulputate velut esse molestie consequat,
                 </p>
                 <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
             </div>
-            <div class="item">
+            <div class="item col-md-4">
                 <h5>Simple Post</h5>
                 <p class="pdate">By Philip on April 22, 2017</p>
                 <p class="prag">Duis autem vel eum iriure dolor in hendrerit in vulputate velut esse molestie consequat,
                 </p>
                 <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
             </div>
-            <div class="item">
+            <div class="item col-md-4">
                 <h5>Incredible Vedio</h5>
                 <p class="pdate">By Philip on April 22, 2017</p>
                 <p class="prag">Duis autem vel eum iriure dolor in hendrerit in vulputate velut esse molestie consequat,
@@ -208,7 +282,11 @@
         <div class="clr"></div>
 
     </section>
+    <!-- Latest-News -->
+
     <section class="linkes details"></section>
+
+    <!-- footer -->
     <footer class="footer">
         <img src="./image/music-light Logo.png" alt="logo engange Music">
         <p>Copyright 2017. All rights reserved.</p>
@@ -222,6 +300,12 @@
         <div class="clr"></div>
 
     </footer>
+    <!-- end footer -->
+
+    <!-- vendor js  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+
     <!-- my js file -->
     <script src="./js/main.js"></script>
 </body>
