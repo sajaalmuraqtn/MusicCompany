@@ -77,3 +77,13 @@ background-image: url(../image/ourwork/second.jpeg);
 background-image: url(../image/ourwork/third.jpeg);
 }
 /* album */
+
+@media screen and (min-width:200px) and (max-width:1000px) {
+    .album div{
+        width: 100%;
+
+    }
+
+
+
+}

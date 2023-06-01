@@ -88,3 +88,21 @@ margin-right: 10px ;
 }
 
 /* Features*/
+
+/* media */
+
+@media screen and (min-width:200px) and (max-width:1000px) {
+
+  .ourstory .img{
+        height: 150px;
+        align-items: center;
+        padding-top: 50px;
+    }
+  .ourstory .img img{
+        height: 150%;
+        width: 150%;
+        margin-top: 30px;
+    }
+
+}
+/* media */
