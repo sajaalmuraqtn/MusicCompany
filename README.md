@@ -1,0 +1,29 @@
+# 📌 MusicCompany Wevsite
+
+## ✨ Project Overview
+This project is a dynamic and user-friendly web application  .  
+The goal was to create an interactive, visually appealing, and responsive interface that enhances user experience and improves workflow efficiency.
+
+I'm immensely proud of the end result and the value it has brought to users. This project serves as a testament to my proficiency in JavaScript, Bootstrap, and jQuery, demonstrating my ability to craft compelling and functional web applications.
+ 
+---
+
+## 👨‍💻 Technologies Used
+- **HTML**
+- **CSS**
+---
+
+## 📸 Pages Preview  
+Below are previews of the main pages used in the project.  
+ 
+### 🏠 Home Page  
+![Home Page](./assets/homepage.png)
+ 
+### 🏠 About Page  
+![Home Page](./assets/about.png)
+
+### 🏠 Event Page  
+![Home Page](./assets/event.png)
+
+### 🏠 OurWork Page  
+![Home Page](./assets/ourwork.png)
