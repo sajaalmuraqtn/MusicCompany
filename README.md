@@ -17,13 +17,13 @@ I'm immensely proud of the end result and the value it has brought to users. Thi
 Below are previews of the main pages used in the project.  
  
 ### 🏠 Home Page  
-![Home Page](./assets/homepage.png)
+![Home Page](./image/homepage.png)
  
 ### 🏠 About Page  
-![Home Page](./assets/about.png)
+![Home Page](./image/about.png)
 
 ### 🏠 Event Page  
-![Home Page](./assets/event.png)
+![Home Page](./image/event.png)
 
 ### 🏠 OurWork Page  
-![Home Page](./assets/ourwork.png)
+![Home Page](./image/ourwork.png)
