@@ -1,4 +1,4 @@
-# 📌 MusicCompany Wevsite
+# 📌 MusicCompany Website
 
 ## ✨ Project Overview
 This project is a dynamic and user-friendly web application  .  
@@ -12,6 +12,7 @@ I'm immensely proud of the end result and the value it has brought to users. Thi
 - **HTML**
 - **CSS**
 ---
+🔗 **Live Demo:** https://www.engage.veented.com/music/  
 
 ## 📸 Pages Preview  
 Below are previews of the main pages used in the project.  
